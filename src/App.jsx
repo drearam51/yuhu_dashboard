@@ -179,7 +179,7 @@ export default function App() {
             <InteractionsChart />
             {/* Otros componentes de tu dashboard */}
         </div>
-        <section id="interacciones" className="bg-white p-6 shadow rounded-2xl">
+        {/* <section id="interacciones" className="bg-white p-6 shadow rounded-2xl">
           <div className="flex justify-between items-center mb-4">
             <h3 className="text-lg font-semibold">📊 Interacciones por Usuario</h3>
             <select
@@ -208,7 +208,7 @@ export default function App() {
               <Bar dataKey="interacciones" fill="#2563eb" />
             </BarChart>
           </ResponsiveContainer>
-        </section>
+        </section> */}
 
         {/* Temas */}
         <section id="temas" className="bg-white p-6 shadow rounded-2xl">
