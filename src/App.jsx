@@ -77,7 +77,7 @@ export default function App() {
 
   // 📅 Calendario
   useEffect(() => {
-    fetch("../public/data/horario.csv")
+    fetch("/data/horario.csv")
       .then((res) => res.text())
       .then((text) => {
         const rows = text.split("\n").slice(1).filter((r) => r.trim() !== "");
